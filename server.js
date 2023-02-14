@@ -3,6 +3,7 @@ const fs = require('fs');
 const PORT = process.env.PORT || 3001;
 const app = express();
 const path = require('path');
+const {v4: uuidv4} = require('uuid');  
 
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
@@ -44,6 +45,7 @@ app.post('/api/notes', (req, res) => {
       const newNote = {
         title,
         text,
+        id: uuidv4(),
       };
   
       // Obtain existing notes
