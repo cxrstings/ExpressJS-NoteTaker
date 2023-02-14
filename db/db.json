@@ -1,10 +1,5 @@
 [
     {
-        "title": "one",
-        "text": "test",
-        "id": "89fbe453-3380-4489-b483-8c6d6d0fd695"
-    },
-    {
         "title": "Breakfast Ideas",
         "text": "eggs, bacon, grits, sausage",
         "id": "8a500a20-e896-4e55-b516-0f93c60726cb"
@@ -18,5 +13,10 @@
         "title": "Dinner Ideas",
         "text": "-Reese's Puffs\n-Captain Crunch\n-Frozen Pizza\n-Chimken",
         "id": "f9a1e99c-4366-4c8b-aa7c-e579707b766d"
+    },
+    {
+        "title": "New Note!",
+        "text": "Hey look I can write cool things and they save! Can't delete them tho sadly haha ):",
+        "id": "7a59e238-119a-46d7-91fe-a70cfe70bf5d"
     }
 ]
